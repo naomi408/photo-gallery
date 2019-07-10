@@ -1,0 +1,16 @@
+body{
+  background-color: pink;
+}
+.images {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap:wrap;
+}
+img {
+  width: 50%;
+  object-fit: cover;
+  padding: inherit;
+}
+/* #red{
+  transform: rotate(90deg);
+} */
